@@ -1,0 +1,35 @@
+@import "ingredient";
+.Burger {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  @include media-breakpoint-up(md) {
+    width: 450px;
+  }
+}
+.Burger {
+  .ingredient {
+    position: relative;
+    width: 100%;
+    .remove {
+      max-height: 100%;
+      width: 20px;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      cursor: pointer;
+      padding: 0;
+      display: block;
+      text-align: center;
+      img {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+      }
+    }
+  }
+}

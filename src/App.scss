@@ -1,0 +1,7 @@
+@import "~@fontsource/ubuntu/scss/mixins";
+@import "./assets/scss/variables";
+@import "~bootstrap-scss/bootstrap";
+@import "./assets/scss/burger";
+@import "./assets/scss/modal";
+
+@include fontFace($weight: 400);
