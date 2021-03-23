@@ -14,7 +14,7 @@ env.INGREDIENTS.map(
 class BurgerBuilder extends Component {
   state = {
     ingredients: [],
-    total: parseFloat(env.BASE_PRICE).toFixed(2),
+    total: env.BASE_PRICE.toFixed(2),
     purchasable: false,
     purchasing: false,
     limitReached: false,
@@ -45,7 +45,7 @@ class BurgerBuilder extends Component {
     ingredients.map((ingredient) => {
       return (ingredientsPrice += INGREDIENT_PRICES[ingredient]);
     });
-    return parseFloat(ingredientsPrice).toFixed(2);
+    return ingredientsPrice.toFixed(2);
   };
 
   updatePurchaseState = (ingredients) => {
@@ -64,9 +64,19 @@ class BurgerBuilder extends Component {
     this.setState({ purchasing: false });
   };
 
+  purchaseContinueHandler = () => {
+    alert("Add order details!");
+  };
+
   limitReachedHandler = (ingredients) => {
     this.setState({
       limitReached: !(ingredients.length <= env.MAX_INGREDIENTS),
+    });
+  };
+
+  orderIngredientsHandler = (newOrder) => {
+    this.setState({
+      ingredients: newOrder,
     });
   };
 
@@ -77,7 +87,12 @@ class BurgerBuilder extends Component {
           show={this.state.purchasing}
           modalClosed={this.purchaseCancelHandler}
         >
-          <OrderSummary ingredients={this.state.ingredients} />
+          <OrderSummary
+            ingredients={this.state.ingredients}
+            continueOrder={this.purchaseContinueHandler}
+            cancelOrder={this.purchaseCancelHandler}
+            price={this.state.total}
+          />
         </Modal>
         <div className="row">
           <div className="col-md-6 col-12">
@@ -93,6 +108,7 @@ class BurgerBuilder extends Component {
             <Burger
               removeIngredient={this.removeIngredientHandler}
               ingredients={this.state.ingredients}
+              orderIngredients={this.orderIngredientsHandler}
             />
           </div>
         </div>
