@@ -1,5 +1,4 @@
 import React from "react";
-import Aux from "../../../hoc/Auxiliary";
 import env from "../../../environment.json";
 
 const orderSummary = (props) => {
@@ -21,7 +20,7 @@ const orderSummary = (props) => {
   });
 
   return (
-    <Aux>
+    <>
       <h3>Your order</h3>
       <p>A delicious burger with the following ingredients: </p>
       <ul>{ingredientSummary}</ul>
@@ -33,7 +32,7 @@ const orderSummary = (props) => {
       <button onClick={props.cancelOrder} className="btn btn-secondary">
         Cancel
       </button>
-    </Aux>
+    </>
   );
 };
 

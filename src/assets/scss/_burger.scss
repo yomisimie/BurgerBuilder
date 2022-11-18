@@ -20,7 +20,8 @@
     }
     &.moving {
       & > * {
-        background: gray;
+        // background: gray;
+        opacity: 0.75;
         transform: scale(1.1);
       }
     }

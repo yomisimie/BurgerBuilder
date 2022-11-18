@@ -1,5 +1,5 @@
 $headerHeight: 50px;
-$regularPadding: $grid-gutter-width/2;
+$regularPadding: calc($grid-gutter-width/2);
 header {
   height: $headerHeight;
   position: fixed;

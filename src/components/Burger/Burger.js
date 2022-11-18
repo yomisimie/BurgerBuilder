@@ -1,7 +1,7 @@
 import React from "react";
-import Ingredient from "./Ingredient/Ingredient";
+import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import env from "../../environment.json";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import Ingredient from "./Ingredient/Ingredient";
 
 const reorder = (list, startIndex, endIndex) => {
   const result = Array.from(list);
@@ -73,6 +73,7 @@ const Burger = (props) => {
                     <Ingredient
                       key={index}
                       type={ingredient}
+                      label={ingredientList[ingredient]}
                       className="text-right"
                     />
                     <span title={"Remove " + ingredientList[ingredient]}>
@@ -103,9 +104,9 @@ const Burger = (props) => {
   }
   return (
     <div className="Burger">
-      <Ingredient type="topBun" />
+      <Ingredient type="topBun" label="Top Bun" />
       {ingredients}
-      <Ingredient type="buttonBun" />
+      <Ingredient type="bottomBun" label="Bottom Bun" />
     </div>
   );
 };
