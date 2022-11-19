@@ -9,7 +9,7 @@ header {
   background: $gray-300;
 }
 #content {
-  margin-top: $headerHeight + $regularPadding;
+  margin-top: calc($headerHeight + $regularPadding);
 }
 .logo {
   background: #fff;

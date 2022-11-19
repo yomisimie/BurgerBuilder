@@ -4,5 +4,6 @@
 @import "./assets/scss/header";
 @import "./assets/scss/burger";
 @import "./assets/scss/modal";
+@import "./assets/scss/theme-variables.scss";
 
 @include fontFace($weight: 400);
