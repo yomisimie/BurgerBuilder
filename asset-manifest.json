@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/BurgerBuilder/static/css/main.6f283f43.chunk.css",
-    "main.js": "/BurgerBuilder/static/js/main.df60cd0e.chunk.js",
-    "main.js.map": "/BurgerBuilder/static/js/main.df60cd0e.chunk.js.map",
-    "runtime-main.js": "/BurgerBuilder/static/js/runtime-main.1baf38bb.js",
-    "runtime-main.js.map": "/BurgerBuilder/static/js/runtime-main.1baf38bb.js.map",
-    "static/js/2.6e9fce54.chunk.js": "/BurgerBuilder/static/js/2.6e9fce54.chunk.js",
-    "static/js/2.6e9fce54.chunk.js.map": "/BurgerBuilder/static/js/2.6e9fce54.chunk.js.map",
-    "static/js/3.73c0e572.chunk.js": "/BurgerBuilder/static/js/3.73c0e572.chunk.js",
-    "static/js/3.73c0e572.chunk.js.map": "/BurgerBuilder/static/js/3.73c0e572.chunk.js.map",
+    "main.css": "/BurgerBuilder/static/css/main.6664a67d.css",
+    "main.js": "/BurgerBuilder/static/js/main.73374240.js",
+    "static/js/729.618f049e.chunk.js": "/BurgerBuilder/static/js/729.618f049e.chunk.js",
+    "static/media/ubuntu-all-400-normal.woff": "/BurgerBuilder/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
+    "static/media/ubuntu-latin-ext-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
+    "static/media/ubuntu-latin-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
+    "static/media/ubuntu-cyrillic-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/ubuntu-greek-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
+    "static/media/burger-logo.png": "/BurgerBuilder/static/media/burger-logo.ec69c7f65e6d7565759f.png",
+    "static/media/ubuntu-greek-ext-400-normal.woff2": "/BurgerBuilder/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
     "index.html": "/BurgerBuilder/index.html",
-    "static/css/main.6f283f43.chunk.css.map": "/BurgerBuilder/static/css/main.6f283f43.chunk.css.map",
-    "static/js/2.6e9fce54.chunk.js.LICENSE.txt": "/BurgerBuilder/static/js/2.6e9fce54.chunk.js.LICENSE.txt",
-    "static/media/burger-logo.ec69c7f6.png": "/BurgerBuilder/static/media/burger-logo.ec69c7f6.png",
-    "static/media/App.scss": "/BurgerBuilder/static/media/ubuntu-latin-ext-400-normal.a1317532.woff2"
+    "main.6664a67d.css.map": "/BurgerBuilder/static/css/main.6664a67d.css.map",
+    "main.73374240.js.map": "/BurgerBuilder/static/js/main.73374240.js.map",
+    "729.618f049e.chunk.js.map": "/BurgerBuilder/static/js/729.618f049e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.1baf38bb.js",
-    "static/js/2.6e9fce54.chunk.js",
-    "static/css/main.6f283f43.chunk.css",
-    "static/js/main.df60cd0e.chunk.js"
+    "static/css/main.6664a67d.css",
+    "static/js/main.73374240.js"
   ]
 }
